@@ -1,21 +1,29 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ejercicio_2;
 
-/**
- *
- * @author recre
- */
+import java.util.Scanner;
+
 public class Ejercicio_2 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        new Ejercicio_2().operaciones();
+
     }
-    
+
+    public void operaciones() {
+
+        int nro1, nro2, nro3, resultadoSuma, resultadoResta;
+
+        System.out.println("Ingrese tres numeros para realizar operaciones");
+        Scanner leer = new Scanner(System.in);
+        nro1 = leer.nextInt();
+        nro2 = leer.nextInt();
+        nro3 = leer.nextInt();
+
+        resultadoSuma = nro1 + nro2 + nro3;
+        resultadoResta = nro3 - nro2 - nro3;
+
+        System.out.println("El resultado de la suma es: " + resultadoSuma + " y el resultado de la resta es: " + resultadoResta);
+
+    }
+
 }
