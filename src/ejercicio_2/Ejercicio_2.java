@@ -15,7 +15,7 @@ public class Ejercicio_2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println(Ejercicio_2_GitHub.sumar(5, 6));
     }
     
 }
