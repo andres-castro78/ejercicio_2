@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class Ejercicio_2 {
 
     public static void main(String[] args) {
+        
         new Ejercicio_2().operaciones();
 
+        System.out.println(Ejercicio_2_GitHub.sumar(5, 6));
     }
 
     public void operaciones() {
