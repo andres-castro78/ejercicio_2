@@ -25,7 +25,6 @@ public class Ejercicio_2 {
         resultadoResta = nro3 - nro2 - nro3;
 
         System.out.println("El resultado de la suma es: " + resultadoSuma + " y el resultado de la resta es: " + resultadoResta);
-
     }
 
 }

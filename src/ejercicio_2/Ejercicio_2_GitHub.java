@@ -12,5 +12,6 @@ package ejercicio_2;
 public class Ejercicio_2_GitHub {
     public static int sumar(int a, int b){
     return a + b;
+    //cosa
     }
 }
